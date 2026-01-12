@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servis mobitela Zagreb</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" type="image/png">
+</head>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="cjenik.html">Cjenik</a></li>
+      <li><a href="onama.html">O nama</a></li>
+      <li><a href="galerija.html">Galerija</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="container">
+  <h2 class="section-title">Kontaktirajte nas</h2>
+
+  <div class="map">
+    <iframe 
+      src="https://www.google.com/maps?q=Zagreb&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <form class="contact-form">
+    <div class="form-grid">
+      <input type="text" placeholder="Ime *" required>
+      <input type="text" placeholder="Prezime *" required>
+    </div>
+
+    <input type="email" placeholder="Email adresa *" required>
+
+    <select required>
+      <option value="">Odaberite državu *</option>
+      <option value="hr">Hrvatska</option>
+      <option value="si">Slovenija</option>
+      <option value="de">Njemačka</option>
+      <option value="at">Austrija</option>
+      <option value="other">Ostalo</option>
+    </select>
+
+    <label class="checkbox">
+      <input type="checkbox">
+      Želim se prijaviti na newsletter
+    </label>
+
+    <textarea rows="6" placeholder="Tijelo poruke *" required></textarea>
+
+    <button type="submit" class="btn">Pošalji poruku</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 MobileFix ZG</p>
+</footer>
+
+</body>
+</html>
